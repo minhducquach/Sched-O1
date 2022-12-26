@@ -1,0 +1,10 @@
+sched.c:29:6:initQueue	40	static
+sched.c:41:10:findPos	24	static
+sched.c:48:10:removeElement	32	static
+sched.c:57:10:removeFront	24	static
+sched.c:66:10:addElement	32	static
+sched.c:93:6:SCH_Init	8	static
+sched.c:97:10:SCH_Add_Task	56	static
+sched.c:109:10:SCH_Delete_Task	24	static
+sched.c:114:6:SCH_Update	4	static
+sched.c:129:6:SCH_Dispatch_Tasks	56	static

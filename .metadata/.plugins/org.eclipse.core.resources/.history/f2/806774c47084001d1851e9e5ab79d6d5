@@ -1,0 +1,27 @@
+/*
+ * sched.c
+ *
+ *  Created on: Dec 25, 2022
+ *      Author: Minh Duc Quach
+ */
+
+
+#include "sched.h"
+
+/******** STRUCT & LIST IMPLEMENTATION ********/
+
+typedef struct {
+	void 		(*pTask)(void);
+	uint32_t 	delay;
+	uint32_t 	period;
+	uint8_t 	runFlag;
+	uint32_t 	taskID;
+} Task;
+
+/**********************************************/
+
+/********** SCHEDULER IMPLEMENTATION **********/
+
+
+
+/**********************************************/

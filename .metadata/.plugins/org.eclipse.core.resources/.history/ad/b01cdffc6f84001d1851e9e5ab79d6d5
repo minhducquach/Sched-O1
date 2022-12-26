@@ -1,0 +1,19 @@
+/*
+ * sched.h
+ *
+ *  Created on: Dec 25, 2022
+ *      Author: Minh Duc Quach
+ */
+
+#ifndef INC_SCHED_H_
+#define INC_SCHED_H_
+
+#include <stdlib.h>
+
+void SCH_Init();
+void SCH_Add_Task();
+void SCH_Update();
+void SCH_Delete();
+void SCH_Dispatch_Tasks();
+
+#endif /* INC_SCHED_H_ */
